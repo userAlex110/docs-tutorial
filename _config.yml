@@ -14,3 +14,13 @@ nav:
 aux_links:
   我的GitHub仓库:
     - https://github.com/userAlex110/docs-tutorial  # 替换成你自己的仓库链接
+
+# 1. 禁用自动读取仓库信息的插件（避免必须配置API权限，新手首选）
+plugins:
+  - jekyll-redirect-from  # 保留模板必要插件
+  - jekyll-seo-tag        # 保留SEO插件
+  # 注释/删除 jekyll-github-metadata，或直接不写它，默认禁用
+
+# 2. 配置网页基础路径（必须和你的仓库名一致）
+url: https://userAlex110.github.io  # 你的GitHub Pages根域名（固定格式）
+baseurl: "/docs-tutorial"           # 你的仓库名（之前创建的仓库名，必须加斜杠）
