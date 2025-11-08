@@ -1,8 +1,16 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+# 网页标题（浏览器标签和页面顶部显示）
+title: 表单操作教程
+# 网页描述（可选，用于说明教程用途）
+description: 详细的配置步骤指南
+
+# 主题（保持默认，不用改）
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+# 侧边栏导航配置（关键！指定你的教程文件）
+nav:
+  - 服务配置教程: 服务配置.md  # 你的md文件名，直接写（因为在docs文件夹下）
 
+# 可选：自定义链接（比如加GitHub仓库链接，不用可删）
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  我的GitHub仓库:
+    - https://github.com/userAlex110/docs-tutorial  # 替换成你自己的仓库链接
