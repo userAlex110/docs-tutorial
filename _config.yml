@@ -6,6 +6,9 @@ description: 详细的配置步骤指南
 # 主题（保持默认，不用改）
 theme: just-the-docs
 
+search:
+  enabled: true  # 启用搜索功能
+  
 # 侧边栏导航配置（关键！指定你的教程文件）
 nav:
   - 服务配置教程: 服务配置.md  # 你的md文件名，直接写（因为在docs文件夹下）
