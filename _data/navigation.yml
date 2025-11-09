@@ -1,0 +1,12 @@
+# _data/navigation.yml 完整配置
+- title: 服务设置        # 一级菜单
+  children:              # 二级菜单
+    - title: 创建填表服务
+      url: /docs/000创建填表服务.md  # 路径：从 baseurl 后开始（不用写 baseurl）
+    - title: 服务配置
+      url: /docs/100服务配置.md
+- title: 表单配置        # 一级菜单
+  children:              # 二级菜单
+    - title: 表单设计
+      url: /docs/200表单设计.md
+- title: 流程配置        

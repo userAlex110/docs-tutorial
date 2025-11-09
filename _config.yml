@@ -10,16 +10,7 @@ search:
   enabled: true  # 启用搜索功能
   
 # 侧边栏导航配置
-nav:
-  - title: 服务设置
-    children:
-      - 创建填表服务: "{{ site.baseurl }}/docs/000创建填表服务.md"
-      - 服务配置: "{{ site.baseurl }}/docs/100服务配置.md"
-  - title: 表单设置
-    children:
-      - 表单设计: "{{ site.baseurl }}/docs/200表单设计.md"
-  - title: 流程设置
-      
+
 
 # 可选：自定义链接（比如加GitHub仓库链接，不用可删）
 aux_links:
