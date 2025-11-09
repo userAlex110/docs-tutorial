@@ -9,12 +9,10 @@ theme: just-the-docs
 search:
   enabled: true  # 启用搜索功能
   
-# 侧边栏导航配置（关键！指定你的教程文件）
+# 侧边栏导航配置
 nav:
-  - title: 表单设计
-    url: "{{ site.baseurl }}/docs/001数据表格.md"
-  - title: 服务配置教程测试
-    url: "{{ site.baseurl }}/docs/服务配置.md"
+  - 表单设计: "{{ site.baseurl }}/docs/001表单设计.md"
+  - 服务配置: "{{ site.baseurl }}/docs/002服务配置.md"
 
 # 可选：自定义链接（比如加GitHub仓库链接，不用可删）
 aux_links:
