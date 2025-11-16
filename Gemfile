@@ -1,4 +1,4 @@
-source "https://rubygems.org"
+source "https://gems.ruby-china.com"
 
 # 只声明依赖，不写版本，让Bundler自动选兼容版本
 gem "just-the-docs"  # 主题核心依赖
