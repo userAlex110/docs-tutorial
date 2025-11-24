@@ -1,7 +1,7 @@
 ---
 title: docx打印模板
 
-parent: 两种打印模板docx和PDF
+parent: 两种打印模板docx和pdf
 
 nav_order: 1
 ---
@@ -53,4 +53,38 @@ nav_order: 1
 
 
 ## 4.编辑xml文件
-使用文本编辑器[在线xml格式化](https://www.jyshare.com/front-end/710/)或者[visual studio code搭配xml插件](./visualStudioCode.md)打开xml文件，找到需要替换的字段位置。
+使用文本编辑器[在线xml格式化](https://www.jyshare.com/front-end/710/)或者[visual studio code搭配xml插件](./visualStudioCode.md)打开xml文件，找到需要替换的字段位置。  
+
+>这里我推荐使用vscode搭配xml插件，方便我们进行格式化和查找替换操作。  
+>使用在线xml主要是方便没有安装visual studio code的用户。  
+
+- 打开网页，选择文件
+![选择文件](https://fastly.jsdelivr.net/gh/userAlex110/my-images@main/images/2025/11/24/step-1_1763990247229.png)  
+
+- 格式化xml文件
+![格式化xml](https://fastly.jsdelivr.net/gh/userAlex110/my-images@main/images/2025/11/24/step-2_1763990249443.png)  
+
+- 查找对应ID位置，例如`XM`，将其修改为`${XM}`
+- 其余ID同理，`${ID}`。
+![修改格式](https://fastly.jsdelivr.net/gh/userAlex110/my-images@main/images/2025/11/24/step-4_1763990253214.png)  
+
+- 全部修改完成，点击 *复制* 按钮
+- 之后保存复制的内容到xml文件中
+![复制内容](https://fastly.jsdelivr.net/gh/userAlex110/my-images@main/images/2025/11/24/step-5_1763990254913.png)  
+
+- 可以用记事本打开xml文件，粘贴保存
+<div style="display:flex;gap:12px;align-items:flex-start;">
+  <img src="https://fastly.jsdelivr.net/gh/userAlex110/my-images@main/images/2025/11/24/step-6_1763990256706.png" alt="记事本" style="width:49%;height:auto;">
+  <img src="https://fastly.jsdelivr.net/gh/userAlex110/my-images@main/images/2025/11/24/step-7_1763990258867.png" alt="保存" style="width:49%;height:auto;">
+</div>
+
+## 5.将xml文件重命名为ftl文件
+
+直接在记事本里 --> 文件 --> 另存为 --> 文件名改为`xxx.ftl`，保存类型选择`所有文件`，编码选择`UTF-8`，点击保存即可。  
+
+![记事本另存](../images/打印模板/记事本另存.png)  
+
+
+## 6.上传ftl文件到打印模板
+
+- [上传打印模板教程](docs/打印模板/上传打印模板.md)
