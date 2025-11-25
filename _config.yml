@@ -9,8 +9,9 @@ theme: just-the-docs
 search:
   enabled: true  # 启用搜索功能
   
-# 侧边栏导航配置
-
+# back_to_top 按钮设置
+back_to_top: true
+back_to_top_text: "返回顶部"
 
 
 # 可选：自定义链接（比如加GitHub仓库链接，不用可删）
