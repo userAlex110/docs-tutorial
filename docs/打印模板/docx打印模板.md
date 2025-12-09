@@ -6,8 +6,8 @@ parent: 两种打印模板docx和pdf
 nav_order: 1
 ---
 
->上一次更新11月25日，2025  
->Alex 编写
+>上一次更新12月9日，2025  
+>Alex 
 
 # docx打印模板
 {: .no_toc }  
@@ -20,13 +20,13 @@ nav_order: 1
 
 ## 准备工作
 
-您已经学习了如何创建填表服务和基础的表单设计，现在是时候了解如何将表单打印输出了。
+您已经学习了如何创建填表服务和基础的表单设计，本章将介绍如何将表单数据输出为打印文件。
 
-### 前提条件
+在开始之前，请确保满足以下条件：
 
-- 从客户得到的打印模板文件，通常是一个.docx文件。
-- 已经创建并发布了这个填表服务。
-- 编辑xml模板文件的工具（[在线xml格式化](https://www.jyshare.com/front-end/710/)、[visual studio code搭配xml插件](./visualStudioCode.md)）
+- **模板文件**：拥有客户提供的打印模板（通常为 `.docx` 文件）。
+- **服务状态**：已经创建并发布了相应的填表服务。
+- **编辑工具**：准备好 XML 编辑工具，推荐使用 [Visual Studio Code 搭配 XML 插件](./visualStudioCode.md)（也可使用 [在线 XML 格式化](https://www.jyshare.com/front-end/710/)）。
 
 
 ## 打印模板文件
