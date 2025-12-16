@@ -263,4 +263,4 @@ ${(国际处审批_LAST.approve_date?date?long + 5 * 86400000)?number_to_date?st
 ## 参考资源
 
 * **Freemarker 指令参考**：[http://freemarker.foofun.cn/ref_directive_if.html](http://freemarker.foofun.cn/ref_directive_if.html)
-* **示例模板**：可参考资源包中的《境外专家短期来访审批表.ftl》。
+* **示例模板**：可参考资源包中的[《境外专家短期来访审批表.ftl》](../../assets/resources/expert-approval.ftl)。
