@@ -9,6 +9,12 @@ theme: just-the-docs
 search:
   enabled: true  # 启用搜索功能
   
+# Set a path/url to a logo that will be displayed instead of the title
+logo: "/assets/images/拼图.png"
+# Set a path/url to a favicon that will be displayed by the browser
+favicon_ico: "/assets/images/favicon.ico"
+
+
 # back_to_top 按钮设置
 back_to_top: true
 back_to_top_text: "返回顶部"
