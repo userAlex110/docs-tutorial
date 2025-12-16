@@ -13,6 +13,8 @@ search:
 back_to_top: true
 back_to_top_text: "返回顶部"
 
+# search config
+search_enabled: true
 
 # 可选：自定义链接（比如加GitHub仓库链接，不用可删）
 aux_links:
