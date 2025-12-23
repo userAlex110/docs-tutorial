@@ -35,3 +35,14 @@ nav_order: 0
 
 感谢使用本教程，祝你办事顺利！
 
+## HtmlGenerator
+
+如果需要制作html，可以试试下面 AI 助手：
+
+<iframe
+ src="https://udify.app/chatbot/0KqdE7UhQceLvA2q"
+ style="width: 100%; height: 100%; min-height: 700px"
+ frameborder="0"
+ allow="microphone">
+</iframe>
+
