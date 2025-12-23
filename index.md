@@ -37,7 +37,9 @@ nav_order: 0
 
 ## HtmlGenerator
 
-如果需要制作html，可以试试下面 AI 助手：
+如果需要制作html，可以试试下面 AI 助手：  
+
+[HTML generator网址](https://udify.app/chat/0KqdE7UhQceLvA2q)
 
 <iframe
  src="https://udify.app/chatbot/0KqdE7UhQceLvA2q"
