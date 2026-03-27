@@ -41,3 +41,8 @@ nav_expand: true
 # 排除文件（不参与构建）
 exclude:
   - CLAUDE.md
+  - vendor
+  - .bundle
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
