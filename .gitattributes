@@ -1,0 +1,101 @@
+# Git Attributes Configuration
+# https://git-scm.com/docs/gitattributes
+#
+# 这个文件控制 Git 如何处理不同文件的行尾符 (line endings)
+# 主要解决 Windows (CRLF) 和 macOS/Linux (LF) 之间的差异
+
+# ============================================
+# 自动处理行尾符 - 推荐设置
+# ============================================
+
+# 对所有文本文件自动处理，提交时统一转为 LF，检出时根据操作系统转换
+* text=auto
+
+# 显式声明常见文本文件类型，确保使用 LF
+*.md        text eol=lf
+*.markdown  text eol=lf
+*.yml       text eol=lf
+*.yaml      text eol=lf
+*.json      text eol=lf
+*.xml       text eol=lf
+*.html      text eol=lf
+*.css       text eol=lf
+*.scss      text eol=lf
+*.sass      text eol=lf
+*.js        text eol=lf
+*.ts        text eol=lf
+*.jsx       text eol=lf
+*.tsx       text eol=lf
+*.py        text eol=lf
+*.rb        text eol=lf
+*.sh        text eol=lf
+*.bash      text eol=lf
+*.zsh       text eol=lf
+*.fish      text eol=lf
+*.vim       text eol=lf
+
+# Jekyll 相关
+*.liquid    text eol=lf
+Gemfile     text eol=lf
+Rakefile    text eol=lf
+
+# Web 模板
+*.ftl       text eol=lf
+
+# ============================================
+# Windows 特定文件 - 保留 CRLF
+# ============================================
+
+# Windows 批处理文件需要 CRLF
+*.bat       text eol=crlf
+*.cmd       text eol=crlf
+*.ps1       text eol=crlf
+
+# Visual Studio 解决方案文件
+*.sln       text eol=crlf
+
+# ============================================
+# 二进制文件 - 不处理行尾符
+# ============================================
+
+# 图片
+*.png       binary
+*.jpg       binary
+*.jpeg      binary
+*.gif       binary
+*.ico       binary
+*.svg       binary
+*.webp      binary
+*.bmp       binary
+*.tiff      binary
+
+# 字体
+*.ttf       binary
+*.otf       binary
+*.woff      binary
+*.woff2     binary
+*.eot       binary
+
+# 文档
+*.pdf       binary
+*.doc       binary
+*.docx      binary
+*.xls       binary
+*.xlsx      binary
+*.ppt       binary
+*.pptx      binary
+
+# 压缩文件
+*.zip       binary
+*.tar       binary
+*.tar.gz    binary
+*.tgz       binary
+*.rar       binary
+*.7z        binary
+
+# 其他二进制
+*.exe       binary
+*.dll       binary
+*.so        binary
+*.dylib     binary
+*.class     binary

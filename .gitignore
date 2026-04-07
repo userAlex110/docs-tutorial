@@ -19,3 +19,72 @@ vendor/
 
 # CLAUDE
 CLAUDE.md
+
+# ============================================
+# 多端协作 - 操作系统特定文件
+# ============================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+.nfs*
+
+# ============================================
+# 编辑器/IDE
+# ============================================
+
+# IntelliJ / JetBrains
+.idea/
+*.iml
+*.iws
+out/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+\.\#*
+
+# ============================================
+# 日志和临时文件
+# ============================================
+*.log
+*.tmp
+*.temp
+.tmp/
+temp/
+
+# ============================================
+# 其他
+# ============================================
+# 本地环境配置
+.env
+.env.local
+
+# 备份文件
+*.bak
+*.backup
